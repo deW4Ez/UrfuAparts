@@ -1,0 +1,28 @@
+.MainContainer{
+
+    @apply flex flex-col gap-14 px-10;
+
+    .NavLine{
+        @apply flex justify-start items-center w-full text-black gap-5 py-2 px-10 ml-3.5;
+
+        .MainText{
+            @apply font-bold text-xl;
+        }
+    }
+
+    .service{
+        @apply flex flex-row w-screen gap-20 items-center px-14;
+    }
+}
+
+.InputBlock{
+    @apply flex flex-col gap-2;
+
+    .subTitle{
+        @apply font-bold text-2xl;
+    }
+
+    .InputField{
+        @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-[80%];
+    }
+}

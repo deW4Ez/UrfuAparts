@@ -1,0 +1,24 @@
+.container{
+    @apply flex flex-col justify-between h-screen ;
+
+    .MainContainer{
+
+        @apply flex flex-col gap-14 px-10 my-5;
+
+        .NavLine{
+            @apply flex justify-start items-center w-full text-black gap-5 py-2 px-10 ml-3.5;
+    
+            .MainText{
+                @apply font-bold text-xl;
+            }
+        }
+    
+        .title{
+            @apply text-black text-6xl ml-2 px-10 pt-6 mb-16;
+        }
+
+        .service{
+            @apply flex flex-row w-screen gap-20 items-center px-14;
+        }
+    }
+}

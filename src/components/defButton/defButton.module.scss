@@ -1,0 +1,13 @@
+.default{
+    @apply border border-solid border-black flex items-center justify-center text-lg mt-4 px-8 py-2 rounded-3xl w-max
+}
+
+.disabled{
+    @apply border border-solid text-gray-400 border-gray-400 flex items-center justify-center text-lg mt-4 px-8 py-2 rounded-3xl w-max;
+
+    pointer-events:none;
+}
+
+.blue{
+    @apply bg-[#1E4391] text-white flex items-center justify-center text-lg mt-4 px-8 py-2 rounded-3xl w-max
+}

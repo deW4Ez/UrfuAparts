@@ -1,0 +1,26 @@
+.textMain{
+    position: relative;
+    color: black;
+    font-size: 51px;
+    bottom: -150px;
+    left: 150px;
+}
+
+.InputBlock{
+    @apply flex flex-col gap-2;
+
+    .subTitle{
+        @apply font-bold text-2xl;
+    }
+
+    .InputField{
+        @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-[80%];
+    }
+}
+
+.background{
+    background-image: url("../../assets/Backgrounds/back2.jpg");
+    background-size:cover;
+    height: 700px;
+}
+

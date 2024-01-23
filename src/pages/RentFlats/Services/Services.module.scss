@@ -1,0 +1,16 @@
+.titleService{
+    @apply text-4xl;
+    text-wrap: nowrap;
+}
+
+.InputBlock{
+    @apply flex flex-col gap-2;
+
+    .subTitle{
+        @apply font-bold text-2xl;
+    }
+
+    .InputField{
+        @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-[80%];
+    }
+}

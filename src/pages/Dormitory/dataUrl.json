@@ -1,0 +1,44 @@
+{
+    "№2": {
+        "adress":"ул. Большакова, 77",
+        "map":"",
+        "group":"https://vk.com/urfu_ssk_2",
+        "chat":""
+    },
+    "№4": {
+        "adress":"ул. Большакова, 71",
+        "map":"",
+        "group":"https://vk.com/sk4_urfu",
+        "chat":""
+    },
+    "№5": {
+        "adress":"ул. Малышева, 144",
+        "map":"",
+        "group":"https://vk.com/sk5_urfu",
+        "chat":""
+    },
+    "№6": {
+        "adress":"ул. Чапаева, 16а",
+        "map":"",
+        "group":"https://vk.com/hostel_urfu_6",
+        "chat":""
+    },
+    "№8":{
+        "adress":"ул. Комсомольская, 70",
+        "map":"",
+        "group":"https://vk.com/8sk_urfu",
+        "chat":""
+    },
+    "№10":{
+        "adress":"Проспект Ленина, 66",
+        "map":"",
+        "group":"https://vk.com/cck10",
+        "chat":""
+    },
+    "№11": {
+        "adress":"ул. Коминтерна д.11",
+        "map":"",
+        "group":"https://vk.com/urfu11",
+        "chat":""
+    }
+}

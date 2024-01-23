@@ -1,0 +1,13 @@
+.InputBlock{
+    @apply flex flex-col;
+
+    .InputField{
+        @apply bg-white border py-1 px-2 border-gray-500 rounded-3xl w-80;
+    }
+
+    .InputArea{
+        @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-80 h-32;
+
+        resize: none;
+    }
+}

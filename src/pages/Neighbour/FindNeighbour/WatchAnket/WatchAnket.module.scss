@@ -1,0 +1,5 @@
+.buttonUrl{
+    @apply flex flex-row justify-between items-center text-xl w-max gap-5 cursor-pointer;
+
+    border-bottom: 1px solid black;
+}

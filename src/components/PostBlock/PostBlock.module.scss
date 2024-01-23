@@ -1,0 +1,9 @@
+.container{
+    @apply flex flex-row items-center justify-center gap-56 w-[90vw] mb-10;
+
+    .button{
+        @apply flex justify-center items-center border border-solid border-black h-14 w-14 p-4 rounded-full cursor-pointer text-2xl;
+
+
+    }
+}

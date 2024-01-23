@@ -1,0 +1,46 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 580px;
+    padding: 50px 14%;    
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+    border-radius: 32px;
+    h1{
+        font-size: 28px;
+        margin-bottom: 10%;
+        font-weight: bold;
+    }
+}
+
+.button{
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+    width: max-content;    
+    background-color: #130160;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 8px 32px;
+
+}
+
+.InputBlock{
+    @apply flex flex-col gap-2;
+
+    .subTitle{
+        @apply font-bold text-2xl;
+    }
+
+    .InputField{
+        @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-[80%];
+    }
+}

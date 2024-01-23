@@ -1,0 +1,62 @@
+.container{
+    @apply bg-white flex-col flex justify-between h-screen;    
+    
+    .MainContainer{
+        @apply flex flex-col mb-8 mx-14;
+
+        .NavLine{
+            @apply flex justify-start items-center w-full text-black gap-2 py-2 px-10 ml-3.5;
+
+            .MainText{
+                @apply font-bold text-xl;
+            }
+        }
+
+        .title{
+            @apply text-black text-6xl ml-2 px-10 pt-6 mb-16
+        }
+
+        .discribeBlock{
+            @apply flex items-center justify-between m-2 text-black px-5;
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            
+        
+            .discribe{
+                @apply flex flex-col gap-10 justify-start h-full break-words ml-6 px-6 text-2xl;
+
+                .text{
+                    .list{
+                        @apply py-2 px-8;
+                        list-style-type: disc;                        
+                    }
+                }
+
+                .button{
+                    @apply flex items-center justify-center text-xl mt-4 text-white bg-[#1E4391] px-8 py-2 rounded-3xl w-max
+                }
+            }
+        
+            .imageBlock{
+                background-image: url("../../assets/Backgrounds/backStudents.jpg");
+                background-size: cover;
+                height: 600px;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+.radio{
+    
+    .subRadio{
+        @apply flex flex-row gap-4;
+    }
+    .subTitle{
+        @apply font-bold;
+    }
+}

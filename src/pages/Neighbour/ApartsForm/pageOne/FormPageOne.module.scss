@@ -1,0 +1,47 @@
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.container{
+    @apply flex bg-white flex-row text-black justify-start ml-5 gap-28;    
+
+    .Block{
+        @apply flex flex-col gap-3;
+
+        .subTitle{
+            @apply font-bold;
+        }
+    }
+
+    .InputBlock{
+        @apply flex flex-col;
+
+        .InputField{
+            @apply bg-white border py-1 px-2 border-gray-500 rounded-3xl;
+        }
+
+        .InputArea{
+            @apply bg-white border py-2 px-4 border-gray-500 rounded-3xl w-80 h-32;
+
+            resize: none;
+        }
+    }
+    
+}
+
+.title{
+    @apply text-xl font-bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

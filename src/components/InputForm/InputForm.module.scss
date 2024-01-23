@@ -1,0 +1,7 @@
+.container{
+    @apply text-left    
+}
+
+.input{
+    @apply my-3 border border-gray-400 pl-2 rounded-[12px] w-[317px] h-[50px] bg-white placeholder:italic placeholder:text-gray-600/50
+}
