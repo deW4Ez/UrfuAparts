@@ -1,6 +1,6 @@
 export async function GET_DATA(url){
 
-    const data = {}    
+    let data = {}    
     try{
         data = await fetch(url).then(response => response.json())        
     } catch (error){
